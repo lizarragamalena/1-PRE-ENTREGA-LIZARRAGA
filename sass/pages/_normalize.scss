@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Rofaela;
+    src: url(../recursos/fuentes/Rofaela.otf);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+  }
+  
+  :root{
+    font-size: 16px;
+  }
+  
+  /*ETIQUETAS UTILITARIAS*/
+  
+  .btn{
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-bottom: solid 5px burlywood;
+    color: rgba(128, 98, 98, 0.493);
+    margin: 1.5rem;
+  }
+  
+  .bg-video{
+    width: 80%;
+  
+  }
+  
+  .text-right{
+    text-align: right;
+  }
+  
+  .icon{
+    height: 4rem;
+    border-radius: 30%;
+  }
+  body {
+    text-align: center;
+    overflow: scroll; }
+    @media screen and (min-width: 768px) {
+      body .gridBody {
+        display: grid;
+        grid-template-areas: "header header" "nav nav" "main main" "main main" "footer footer"; } }
+    @media screen and (min-width: 1024px) {
+      body .gridBody {
+        display: grid;
+        grid-template-areas: "header header header" "nav nav nav" "main main main" "main main main" "main main main" "footer footer footer"; } }
+  
+  

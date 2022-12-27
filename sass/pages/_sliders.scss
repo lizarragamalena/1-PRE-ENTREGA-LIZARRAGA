@@ -1,0 +1,103 @@
+.contenedorIndex, .contenedorIng {
+    margin-right: 20px;
+    margin-left: 10px;
+    .carousel {
+        margin-top: 15px;
+        padding-bottom: 25px;
+
+        .carousel-item {
+            height: 400px;
+
+            img {
+                object-fit:cover;
+                top: 0;
+                left: 0;
+                min-height: 400px;
+                
+            }
+
+            .indexText {
+
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                p {
+                    width: 290px;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    color: black;
+                    background-color:#f3f2f1;
+                }
+            }
+
+        }
+    }
+
+}
+
+.contenedorIndex {
+    .indexText {
+        p {
+            font-size: p-font-size;
+            margin-bottom: 70%;
+        }
+    }
+}
+
+.contenedorIng {
+    .indexText {
+        p {
+            font-size: index-slider-font-size;
+            margin-bottom: 40%;
+        }
+    }
+}
+.form {
+    font-size: 1rem;
+    line-height: 2.5rem; }
+    .form fieldset {
+      padding-top: 10px;
+      background-image: url(../../imagenes/fine\ background.jpg);
+      text-align: start;
+      width: 250px;
+      margin: 5px 30px 30px 15px; 
+  .rellenar, label, textarea {
+    margin-left: 15px;
+    width: 200px; }
+  } 
+  textarea {
+    overflow: auto;
+    margin-right: 15px;
+    margin-right: 30px; 
+  .seccionVideo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;  
+  iframe {
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+    margin-right: 30px;
+    margin-left: 15px; }
+  }
+}
+
+  
+  .checkbox {
+    font-weight: bold; 
+    .botones {
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 1.5px solid rgb(254, 254, 254);
+    border-radius: 6px; 
+    .botones:hover {
+      background-color: #28a197;
+      height: auto;
+      width: auto; }
+    }
+  }
+
+  
+  
